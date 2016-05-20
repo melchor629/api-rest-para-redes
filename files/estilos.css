@@ -1,0 +1,49 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-color: #DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body > div{
+    display: table-row;
+}
+
+body > div > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.welcome{
+    background-color: #3D9970;
+    margin: 2% 18% 2% 18%;
+    color: #111111;
+}
+
+.bar{
+    background-color: #337f5d;
+    font-size: 3.5em;
+}
+
+.welcome  div, p{
+    padding: 4%;
+}
+
+.welcome p{
+   font-size: 1.6em;
+}
+
+.imagen{
+    float: right;
+    width: 25%;
+    margin: 1%;
+}
+.clearfix{
+    clear: both;
+}

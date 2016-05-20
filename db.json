@@ -1,0 +1,115 @@
+{
+    "deportes": [
+        {
+            "titulo": "Spinning",
+            "descripcion": "Quemar grasitas en Carranque",
+            "fecha": "19:55",
+            "prioridad": "ALTA",
+            "ubicación": "Carranque"
+        },
+        {
+            "titulo": "Comprar pelotas",
+            "descripcion": "Comprar pelotas de fútbol para el colegio",
+            "fecha": null,
+            "ubicación": null,
+            "prioridad": "NORMAL"
+        },
+        {
+            "titulo": "Aquarius",
+            "descripcion": "Tons of aquarius para este fin de semana, que nosbamo a correr",
+            "fecha": null,
+            "ubicación": null,
+            "prioridad": "NORMAL"
+        }
+    ],
+
+    "estudios": [
+        {
+            "titulo": "Estudiar redes",
+            "descripcion": "Hay que estudiar redes",
+            "fecha": "23 de Junio de 2016",
+            "ubicación": "ETSI",
+            "prioridad": "ALTA"
+        },
+        {
+            "titulo": "Concurrencia",
+            "descripcion": "La practica de concurrencia esa",
+            "fecha": null,
+            "ubicación": null,
+            "prioridad": "NORMAL"
+        }
+    ],
+
+    "programacion": [
+        {
+            "titulo": "Aprender Node.js",
+            "descripcion": "¡AH! Espera. Que ya sé :)",
+            "fecha": null,
+            "ubicación": null,
+            "prioridad": "BAJA"
+        },
+        {
+            "titulo": "Aprender C++",
+            "descripcion": "Puede estar guay este veraniyo aprender C++",
+            "fecha": null,
+            "ubicación": null,
+            "prioridad": "NORMAL"
+        },
+        {
+            "titulo": "Quemar el libro de TALF",
+            "descripcion": "Exacto",
+            "fecha": "1/07/2016",
+            "ubicación": null,
+            "prioridad": "ALTA"
+        }
+    ],
+
+    "videojuegos": [
+        {
+            "titulo": "Meter una paliza a un casual",
+            "descripcion": "Manolito va a sufrir esta vez, y mucho",
+            "fecha": null,
+            "ubicación": null,
+            "prioridad": "ALTA"
+        }
+    ],
+
+    "musica": [
+        {
+            "titulo": "Comprar Kuiper LP de Floating Points",
+            "descripcion": "http://floatingpoints.tmstor.es/cart/product.php?id=28174",
+            "fecha": "22/07/2016",
+            "ubicación": null,
+            "prioridad": "ALTA"
+        }
+    ],
+
+    "peliculas": [
+        {
+            "titulo": "Ver Interstellar",
+            "descripcion": "Esta canela al parecer",
+            "fecha": null,
+            "ubicación": null,
+            "prioridad": "NORMAL"
+        },
+        {
+            "titulo": "Ver Marte",
+            "descripcion": "No mola tanto como la otra, pero esta bien tambien",
+            "fecha": null,
+            "ubicación": null,
+            "prioridad": "BAJA"
+        }
+    ],
+
+    "series": [
+        {
+            "titulo": "Ver Mr. Robot",
+            "descripcion": "Este veraniyo hay que verlo",
+            "fecha": null,
+            "ubicación": null,
+            "prioridad": "BAJA"
+        }
+    ],
+
+    "compras": []
+}
