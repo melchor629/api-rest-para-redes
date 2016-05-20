@@ -171,6 +171,16 @@ const api = express.Router()
 });
 
 
+var token = null;
+app.post('/le_insta', (req, res) => {
+    token = res.body.token;
+    res.send(`Gracias por tu token :) <i>${token}</i>`);
+});
+app.get('/le_insta', (req, res) => {
+    res.send(token);
+});
+
+
 app.use('/api', api);
 
 app.listen(80, () => {
