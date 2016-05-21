@@ -1,5 +1,4 @@
 //jshint esversion: 6
-'use strict';
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -188,6 +187,6 @@ app.use((err, req, res, next) => {
     res.status(500).send(`Ha habido un error<br><pre>${err.stack}</pre>`);
 });
 
-app.listen(80, () => {
-    console.log('Servidor escuchando en el puerto 80');
+app.listen(process.env.PORT || 80, () => {
+    console.log('Servidor escuchando en el puerto ' + (process.env.PORT || 80));
 });
