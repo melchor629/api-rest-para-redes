@@ -15,8 +15,8 @@
                 }
             };
             xhttp.open("POST", "/le_insta", true);
-            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-            xhttp.send("token=" + encodeURIComponent(token));
+            xhttp.setRequestHeader("Content-type", "application/json");
+            xhttp.send("{\"token\": \"" + encodeURIComponent(token) + "\"}");
         </script>
     </body>
 </html>

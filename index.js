@@ -1,4 +1,5 @@
 //jshint esversion: 6
+'use strict';
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -172,8 +173,8 @@ const api = express.Router()
 
 
 var token = null;
-app.post('/le_insta', (req, res) => {
-    token = res.body.token;
+app.post('/le_insta', bodyParser.json(), (req, res) => {
+    token = req.body.token;
     res.send(`Gracias por tu token :) <i>${token}</i>`);
 });
 app.get('/le_insta', (req, res) => {
@@ -182,6 +183,10 @@ app.get('/le_insta', (req, res) => {
 
 
 app.use('/api', api);
+
+app.use((err, req, res, next) => {
+    res.status(500).send(`Ha habido un error<br><pre>${err.stack}</pre>`);
+});
 
 app.listen(80, () => {
     console.log('Servidor escuchando en el puerto 80');
