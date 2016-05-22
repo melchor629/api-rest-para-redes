@@ -135,7 +135,7 @@ const api = express.Router()
 })
 
 .put('/:categoria/:id', (req, res) => {
-    if(req.body.prioridad && ['BAJA', 'NORMAL', 'ALTA'].indexOf(req.body.prioridad) === -1) {
+    if(req.body.prioridad && ['BAJO', 'NORMAL', 'ALTO'].indexOf(req.body.prioridad) === -1) {
         error(3, "Prioridad errónea", res);
     } else if(db[req.params.categoria]) {
         let cat = db[req.params.categoria];
