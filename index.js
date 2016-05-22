@@ -1,4 +1,5 @@
 //jshint esversion: 6
+//jshint node: true
 "use strict";
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -16,7 +17,6 @@ const db = require('./db.json');
 
 app.use(express.static('files'));
 
-
 const error = (code, msg, res) => {
     res.status(status_errors[code].e).send({
         codigo: code,
@@ -24,6 +24,9 @@ const error = (code, msg, res) => {
         descripcion: msg
     });
 };
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 
 const api = express.Router()
 .use(bodyParser.json())
@@ -171,16 +174,8 @@ const api = express.Router()
     res.status(418).send({ "here you have your tea": '🍵' });
 });
 
-
-var token = null;
-app.post('/le_insta', bodyParser.json(), (req, res) => {
-    token = req.body.token;
-    res.send(`Gracias por tu token :) <i>${token}</i>`);
-});
-app.get('/le_insta', (req, res) => {
-    res.send(token);
-});
-
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 
 app.use('/api', api);
 
