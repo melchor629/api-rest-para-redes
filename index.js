@@ -124,6 +124,7 @@ const api = express.Router()
     if(db[req.params.categoria]) {
         let cat = db[req.params.categoria];
         if(cat[req.params.id]) {
+            cat[req.params.id].id = Number(req.params.id);
             res.send(cat[req.params.id]);
         } else {
             error(2, "No existe tarea en la categoría", res);
@@ -145,6 +146,7 @@ const api = express.Router()
             tarea.fecha = req.body.fecha || tarea.fecha;
             tarea.ubicacion = req.body.ubicacion || tarea.ubicacion;
             tarea.prioridad = req.body.prioridad || tarea.prioridad;
+            tarea.id = Number(req.params.id);
             res.send(cat[req.params.id]);
         } else {
             error(2, "No existe tarea en la categoría", res);

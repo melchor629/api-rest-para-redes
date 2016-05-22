@@ -4,7 +4,7 @@
             "titulo": "Spinning",
             "descripcion": "Quemar grasitas en Carranque",
             "fecha": "19:55",
-            "prioridad": "ALTA",
+            "prioridad": "ALTO",
             "ubicación": "Carranque"
         },
         {
@@ -29,7 +29,7 @@
             "descripcion": "Hay que estudiar redes",
             "fecha": "23 de Junio de 2016",
             "ubicación": "ETSI",
-            "prioridad": "ALTA"
+            "prioridad": "ALTO"
         },
         {
             "titulo": "Concurrencia",
@@ -46,7 +46,7 @@
             "descripcion": "¡AH! Espera. Que ya sé :)",
             "fecha": null,
             "ubicación": null,
-            "prioridad": "BAJA"
+            "prioridad": "BAJO"
         },
         {
             "titulo": "Aprender C++",
@@ -60,7 +60,7 @@
             "descripcion": "Exacto",
             "fecha": "1/07/2016",
             "ubicación": null,
-            "prioridad": "ALTA"
+            "prioridad": "ALTO"
         }
     ],
 
@@ -70,7 +70,7 @@
             "descripcion": "Manolito va a sufrir esta vez, y mucho",
             "fecha": null,
             "ubicación": null,
-            "prioridad": "ALTA"
+            "prioridad": "ALTO"
         }
     ],
 
@@ -80,7 +80,7 @@
             "descripcion": "http://floatingpoints.tmstor.es/cart/product.php?id=28174",
             "fecha": "22/07/2016",
             "ubicación": null,
-            "prioridad": "ALTA"
+            "prioridad": "ALTO"
         }
     ],
 
@@ -97,7 +97,7 @@
             "descripcion": "No mola tanto como la otra, pero esta bien tambien",
             "fecha": null,
             "ubicación": null,
-            "prioridad": "BAJA"
+            "prioridad": "BAJO"
         }
     ],
 
@@ -107,7 +107,7 @@
             "descripcion": "Este veraniyo hay que verlo",
             "fecha": null,
             "ubicación": null,
-            "prioridad": "BAJA"
+            "prioridad": "BAJO"
         }
     ],
 
